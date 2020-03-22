@@ -32,7 +32,7 @@ class LoadLatestData(Initialize):
 
 class SendMessage:
     def __init__(self):
-        self.token = "1077745875:AAERrzlD1O9jPSwg40RHZLDuv9IoirX0DeA"
+        self.token = "ChatBotTokenasString"
         self.base = "https://api.telegram.org/bot{}/".format(self.token)
 
     def createLink(self, filename):
@@ -45,6 +45,6 @@ class SendMessage:
         return date
 
     def sendMessage(self, message):
-        url = self.base + "sendMessage?chat_id={}&text={}".format("-449497571", message)
+        url = self.base + "sendMessage?chat_id={}&text={}".format("GrouporPersonChatID", message)
         if message is not None:
             requests.get(url)
