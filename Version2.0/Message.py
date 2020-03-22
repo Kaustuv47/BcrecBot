@@ -33,7 +33,7 @@ class Bcrec():
 
 class SendMessage:
     def __init__(self):
-        self.token = "1077745875:AAERrzlD1O9jPSwg40RHZLDuv9IoirX0DeA"
+        self.token = "TokenofChatBot"
         self.base = "https://api.telegram.org/bot{}/".format(self.token)
 
     def createLink(self, filename):
