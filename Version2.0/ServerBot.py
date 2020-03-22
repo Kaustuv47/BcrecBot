@@ -4,7 +4,7 @@ import time
 
 messageObject = Message.SendMessage()
 bcrecObject = Message.Bcrec()
-chatID = -1001287723688
+chatID = ChatIDofGrouporIndividual
 
 bcrecObject.getInitialBcrecNotice(10)
 text = messageObject.createMessageWithDate("BCREC Notice Bot is ON")
