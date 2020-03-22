@@ -1,0 +1,9 @@
+git+https://github.com/Kaustuv47/Server.py@rewrite
+requests
+xlrd
+xlwt
+xlutil
+time
+datetime
+bs4
+async-timeout==3.0.1
