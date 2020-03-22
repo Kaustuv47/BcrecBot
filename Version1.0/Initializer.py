@@ -13,7 +13,7 @@ class Initialize():
     noticeFile = []
 
     def __init__(self):
-        self.token = "1077745875:AAERrzlD1O9jPSwg40RHZLDuv9IoirX0DeA"
+        self.token = "ChatBotTokenasString"
         self.base = "https://api.telegram.org/bot{}/".format(self.token)
         self.writeFile(0, 0, 0)
         self.getAllData()
