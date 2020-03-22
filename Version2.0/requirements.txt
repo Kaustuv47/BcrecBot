@@ -1,0 +1,5 @@
+requests==2.23.0
+times==0.7
+datetime==4.3
+bs4==0.0.1
+async-timeout==3.0.1
