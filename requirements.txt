@@ -1,4 +1,3 @@
-git+https://github.com/Kaustuv47/Server.py@rewrite
 requests
 xlrd
 xlwt
