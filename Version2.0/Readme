@@ -1,1 +1,31 @@
 Version 2
+Procedure and instruction:-
+  * Open Telegram app
+  * Search for Botfather with Blue tick on right side of the tab.
+  * Once joined the group create a bot with the instruction given.
+  * After creating the new bot you will get the Token ID, copy it and paste in Message.py file, token id, inside quotation.
+  * Open Browser, copy Url https://api.telegram.org/bot"Token id"/getUpdates
+  * Replace Token id with your token id without the quotation.
+  * Once done, paste in the browser and you will get json request.
+Done Step 1, now we have three condition will us
+
+Condition 1 -(Using the bot with an Channel)
+  * Open Telegram and create a Channel.
+  * Copy the channel ID starting with "@******" and paste it in ServerBot.py in place where required.
+  * Add the Bot to the channel in Telegram app using Add member, Settings, and search for the bot by using the bot username.
+Condition 2 -(Only one or more than one user Under contraction)
+Condition 2 -(Using group Under contraction)
+
+Final Step
+  * Head to the notice Board Website where the pdf are uploaded by your institution
+  * Copy the web page Url and paste in ServerBot.py wher required (Denoted Notice Web page Url)
+  * Open browser and upen two consicutive notice pdf files in new browser tab.
+  * Compare the two URL of the two pdfs opened
+  Like "http://something.something.something/something/.../something/Notice20032020.pdf"
+  Find common part of the two consicutive links like http://something.something.something/
+  Copy the part which is common in both the URL and paste in ServerBot.py where it says Starting notice URL
+  
+  Once Done all the steps Editing is done.
+  
+  Open some online python server like "heroku" or "pythonanywhere" and upload the code and then your script is online.
+  
