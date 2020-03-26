@@ -3,7 +3,8 @@ import datetime
 
 class SendMessage:
     def __init__(self):
-        self.token = "1077745875:AAERrzlD1O9jPSwg40RHZLDuv9IoirX0DeA"
+        # Change need to be done in token id
+        self.token = "Enter the Bot token ID"
         self.base = "https://api.telegram.org/bot{}/".format(self.token)
 
     def createLink(self, startingUrl, filename):
