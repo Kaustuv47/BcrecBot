@@ -1,4 +1,4 @@
-requests==2.23.0
+requests==2.31.0
 times==0.7
 datetime==4.3
 bs4==0.0.1
